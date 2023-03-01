@@ -1,17 +1,12 @@
-let a = [19, 63, 7, 80, 90];
-let plural = 0
-let counter = 0;
-
-for (let i = 0; i < a.length; i++) {
-    if (a[i] % 2 == 1) {
-
-        plural += a[i];
-        counter++;
-
-
-    }
-
-
-
+let a=[23,98,102];
+let edediorta=0
+let plural=0;
+let counter=0;
+let say=0;
+for(let i=0;i<a.length;i++)
+{
+plural+=a[i];
+say++
 }
-console.log(plural);
+edediorta=plural/say;
+console.log(edediorta);
